@@ -15,6 +15,7 @@ public class GenericResourceBundle {
 			if(key.equalsIgnoreCase(source)){
 				value = rb.getString(key);
 			}
+			//comment added to test SCM polling from Jenkins
 		}
 		return value;
 	}
